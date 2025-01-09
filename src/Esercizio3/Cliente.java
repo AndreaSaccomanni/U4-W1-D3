@@ -6,13 +6,19 @@ public class Cliente {
     private String codice;
     private String nomeCognome;
     private String email;
-    private Date dataIscrizione;
+    private String dataIscrizione;
+    private Articolo[] listaArticoli;
 
 
-    public Cliente(String codice, String nomeCognome, String email, Date dataIscrizione){
+    public Cliente(String codice, String nomeCognome, String email, String dataIscrizione){
         this.codice = codice;
         this.nomeCognome = nomeCognome;
         this.email = email;
         this.dataIscrizione = dataIscrizione;
+
+    }
+
+    public String getNomeCognome() {
+        return nomeCognome;
     }
 }

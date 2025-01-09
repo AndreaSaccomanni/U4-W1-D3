@@ -13,8 +13,15 @@ public class Articolo {
         this.prezzo = prezzo;
             }
 
-            public double getPrezzo(){
-                return this.prezzo;
+            public void stampaArticolo(){
+                System.out.println("Codice: " + this.codice);
+                System.out.println("descrizione: " + this.descrizione);
+                System.out.println("Numero pezzi: " + this.numPezzi);
+                System.out.println("prezzo: " + this.prezzo);
+            }
+
+            public String getDescrizione(){
+                return this.descrizione;
             }
             public int getNumPezzi(){
                return this.numPezzi;
