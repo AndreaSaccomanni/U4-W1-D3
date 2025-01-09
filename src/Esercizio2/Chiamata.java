@@ -1,15 +1,15 @@
 package Esercizio2;
 
 public class Chiamata {
-    protected int numeroChiamato;
-    protected int durataChiamata;
+    private String numeroChiamato;
+    private double durataChiamata;
 
-    public Chiamata(int numeroChiamato, int durataChiamata) {
+    public Chiamata(String numeroChiamato, double durataChiamata) {
         this.numeroChiamato = numeroChiamato;
         this.durataChiamata = durataChiamata;
     }
 
-    protected void mostraChiamata(int numeroChiamato, int durata){
-        System.out.println("numero chiamato: " + numeroChiamato + ", durata chiamata: " + durata + " minuti");
+    protected void mostraChiamata(){
+        System.out.println("numero chiamato: " + this.numeroChiamato + ", durata chiamata: " + this.durataChiamata + " minuti");
     }
 }

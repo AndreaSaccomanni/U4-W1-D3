@@ -15,6 +15,7 @@ public class Main {
 
         System.out.println("Metodo stampaRettangolo1: " + rett1.stampaRettangolo());
         System.out.println("Metodo stampaRettangolo2: " + rett2.stampaRettangolo());
+
         Rettangolo.stampaDueRettangoli(rett1, rett2);
 
 
